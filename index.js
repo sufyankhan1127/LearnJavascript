@@ -151,9 +151,9 @@ var age=20;
 //console.log("Bachhe rahe");
 //}
 
-var arr=[1,2,3,4,5,6,7];
-console.log(arr);
-
+//var arr=[1,2,3,4,5,6,7];
+//console.log(arr);
+//
 
 //for loop in javascript
 //for(var i=0;i<arr.length;i++){
@@ -179,11 +179,42 @@ let j=0;//block level scope
 //}while(j<arr.length);
 
 
-for(var i=0;i,arr.length;i++){
-    if(i==2){
+//for(var i=0;i,arr.length;i++){
+//    if(i==2){
 //        break;
 //       continue;
-    }
+//    }
+//
+//    console.log(arr[i]);
+//}
 
-    console.log(arr[i]);
-}
+//array methods
+let myArr=["Fan","Camera",34,null,true];
+console.log(myArr.length);
+
+//pops the last element
+myArr.pop();
+console.log(myArr);
+
+//push the element to the last
+myArr.push("harry");
+console.log(myArr);
+
+//shift gives first element
+myArr.shift()
+console.log(myArr);
+
+//unshift
+const newLen=myArr.unshift("harry");
+console.log(newLen);
+console.log(myArr);
+
+//sort();
+
+//String methods in javaScript
+let mylovelystring = "Suffy is a good guy";
+//console.log(mylovelystring.length)
+//console.log(mylovelystring.indexOf("good"));
+//console.log(mylovelystring.lastIndexOf("good"));
+
+console.log(mylovelystring.slice(0,3))
